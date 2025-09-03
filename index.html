@@ -14,7 +14,8 @@
   </head>
   <body>
       <form class="form">
-        <label for="username" class="label"> Name: </label>
+        <h2 class="login">LOG IN AS ADMIN</h2>
+        <label for="username" class="label">Name: </label>
         <input
           type="text"
           required
@@ -22,27 +23,29 @@
           name="username"
           id="name"
         />
-        <label for="age" class="label">Age: </label>
+        <label for="username" class="label">Username: </label>
 
-        <input
-          type="number"
-          required
-          placeholder="Enter your age"
-          min="1"
-          max="99"
-          name="age"
-          id="age"
-        />
-
-        <label for="userid" class="label">Select your display name: </label>
         <input
           type="text"
           required
           placeholder="Enter your username"
+          minlength="1"
+          maxlength="8"
           name="userid"
           id="userid"
         />
-        <button type="submit" class="submit">Submit</button>
+
+        <label for="userid" class="label">Password </label>
+        <input
+          type="text"
+          required
+          placeholder="Enter your password"
+          name="password"
+          id="userid"
+          
+        />
+        <a href="create.html" class="create">Create an admin Account</a>
+        <button type="submit" class="submit">Log in</button>
       </form>
     </div>
   </body>
