@@ -1,33 +1,49 @@
 <!DOCTYPE html>
-<html lang = "en">
-<head>
-    <meta charset = "UTF-8">
-    <meta name = "viewport"  content = "width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Rahul Shrestha">
-    <meta property="og:description" content="Check out my portfolio site.">
-    <meta property="og:image" content="asset/favicon.jpg">
-    <meta property="og:url" content="https://google.com">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Rahul Shrestha" />
+    <meta property="og:description" content="Check out my portfolio site." />
+    <meta property="og:image" content="asset/favicon.jpg" />
+    <meta property="og:url" content="https://www.rahulshrestha7.com.np" />
     <title>Rahul Shrestha</title>
-    <link rel="icon" href="asset/favicon.jpg" type ="image/jpg"> 
-    
-</head>
-<body>
-<style>
- .img{
-    width: 100px;
-    border-radius: 50px;
-    float: left;
-    margin: 10px;
-    }   
- .username{
-    font-weight: bold;
-    font-style: italic;
-    }           
- </style>
- 
-<p class = "username">@rahulshrestha7</p>     
-<img class= "img "src="asset\favicon.jpg" alt="image not available">
-       
+    <link rel="icon" href="asset/favicon.jpg" type="image/jpg" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400..800&display=swap">
+  </head>
+  <body>
+      <form class="form">
+        <label for="username" class="label"> Name: </label>
+        <input
+          type="text"
+          required
+          placeholder="Enter your name"
+          name="username"
+          id="name"
+        />
+        <label for="age" class="label">Age: </label>
+
+        <input
+          type="number"
+          required
+          placeholder="Enter your age"
+          min="1"
+          max="99"
+          name="age"
+          id="age"
+        />
+
+        <label for="userid" class="label">Select your display name: </label>
+        <input
+          type="text"
+          required
+          placeholder="Enter your username"
+          name="userid"
+          id="userid"
+        />
+        <button type="submit" class="submit">Submit</button>
+      </form>
     </div>
-</body>
+  </body>
 </html>
