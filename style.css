@@ -9,7 +9,7 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #fbfaf8;
+    background:linear-gradient(135deg ,#ecedea, #dae9cd);
    
 }
 .form{
@@ -51,10 +51,7 @@ body{
 .logs:focus{
     transform: scale(1.07);
 }
-.logs:invalid{
-    border: 10px red ;
-    appearance: none;
-}
+
 .pass{
     width: 330px;
     background-color:honeydew;
@@ -92,11 +89,7 @@ input::placeholder{
 transform: scale(1.08,1.08);
 box-shadow: 3px 3px 4px #8e8763;;
 }
-.submit:active{
-    .section{
-        appearance: none;
-    }
-}
+
 .create{
     align-self: flex-start;
     margin-bottom: 10px;
