@@ -10,43 +10,77 @@
     <title>Rahul Shrestha</title>
     <link rel="icon" href="asset/favicon.jpg" type="image/jpg" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400..800&display=swap">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400..800&display=swap"
+    />
   </head>
   <body>
-      <form class="form">
-        <h2 class="login">LOG IN AS ADMIN</h2>
-        <label for="username" class="label">Name: </label>
-        <input
-          type="text"
-          required
-          placeholder="Enter your name"
-          name="username"
-          id="name"
-        />
-        <label for="username" class="label">Username: </label>
+    <form class="form">
+      <h2 class="login">LOG IN AS ADMIN</h2>
+      <label for="username" class="label">Name: </label>
+      <input
+        class="logs"
+        type="text"
+        required
+        placeholder="Enter your name"
+        name="username"
+        id="name"
+      />
+      <label for="username" class="label">Username: </label>
 
-        <input
-          type="text"
-          required
-          placeholder="Enter your username"
-          minlength="1"
-          maxlength="8"
-          name="userid"
-          id="userid"
-        />
+      <input
+        class="logs"
+        type="text"
+        required
+        placeholder="Enter your username"
+        minlength="1"
+        maxlength="20"
+        name="userid"
+        id="userid"
+      />
 
-        <label for="userid" class="label">Password </label>
+      <label for="userid" class="label">Password </label>
+      <div class="inprow">
         <input
-          type="text"
+          class="pass"
+          type="password"
           required
           placeholder="Enter your password"
           name="password"
           id="userid"
-          
         />
-        <a href="create.html" class="create">Create an admin Account</a>
-        <button type="submit" class="submit">Log in</button>
-      </form>
-    </div>
+        <input
+          type="checkbox"
+          class="checkbox"
+          name="show"
+          tirle="Show Password"
+        />
+      </div>
+      <a href="create.html" class="create">Create an admin Account</a>
+      <button type="submit" class="submit">Log in</button>
+    </form>
+    <section class="section">
+      <div class="message">
+      <h2 class="welcome">Welcome,</h2>
+      <h2 class="name" >Rahul Shrestha</h2>
+      </div>
+      <img class="image" src="asset/favicon.jpg" alt="Image not available">
+      
+      <p class="text">
+        Bananas are suspiciously shaped like smiles, which
+        raises the obvious question: are fruits just props in an intergalactic
+        sitcom? The fridge hums louder at 3 a.m., probably gossiping with the
+        microwave about the scandalous life of the ketchup bottle. Ceiling fans
+        spin not because they have to, but because they know too much. Reality
+        is basically a badly coded video game where gravity glitches just enough
+        to keep us humble. And don’t get me started on elevators—they’re just
+        vertical lies. You think you’re moving up or down, but maybe the
+        building is moving around you. Meanwhile, the moon is watching all of
+        this with the smug grin of someone who knows the ending but won’t spoil
+        it.
+      </p>
+      </p>
+    </section>
   </body>
 </html>
