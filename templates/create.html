@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Create and admin account</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style2.css') }}"
+    />
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename='asset/favicon.jpg') }}"
+      type="image/jpg"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <form action="/submit" method="POST" class="form">
+      <h2 class="signin">Create An Admin ID</h2>
+      <label> Name:</label>
+      <input
+        type="text"
+        placeholder="Enter Your Name"
+        required
+        class="logs"
+        name="name"
+      />
+      <label> Username:</label>
+      <input
+        type="username"
+        placeholder="Enter your username"
+        required
+        class="logs"
+        name="username"
+      />
+      <label> Password:</label>
+      <input
+        type="password"
+        placeholder="Select a password"
+        required
+        class="logs"
+        name="password"
+      />
+      <button type="submit" class="submit">Create Admin</button>
+    </form>
+  </body>
+</html>

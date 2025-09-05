@@ -9,14 +9,14 @@
     <meta property="og:url" content="https://www.rahulshrestha7.com.np" />
     <title>Rahul Shrestha</title>
     <link rel="icon" href="asset/favicon.jpg" type="image/jpg" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="cascade style sheets/style.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400..800&display=swap"
     />
   </head>
   <body>
-    <form class="form">
+    <form class="form" method="POST" action="view.py">
       <h2 class="login">LOG IN AS ADMIN</h2>
       <label for="username" class="label">Name: </label>
       <input
@@ -48,24 +48,18 @@
           required
           placeholder="Enter your password"
           name="password"
-          id="userid"
+          id="password"
         />
         <input
           type="checkbox"
           class="checkbox"
           name="show"
-          tirle="Show Password"
+          title="Show Password"
         />
       </div>
-      <a href="create.html" class="create">Create an admin Account</a>
-      <button   onclick="script()" class="submit" > Log in</button>
+      <a href="templates/create.html" class="create">Create an admin Account</a>
+      <button   type="submit" class="submit" > Log in</button>
     </form>
-      <script>
-         function script(){
-         const audio = new Audio('asset/Fake Plastic Trees.mp3');
-         audio.play();
-         }
-      </script>
     <section class="section">
       <div class="message">
       <h2 class="welcome">Welcome,</h2>

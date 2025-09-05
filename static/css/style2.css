@@ -1,0 +1,178 @@
+@font-face{
+    font-family: "tasa";
+    src: url(../asset/fonts.ttf) format("truetype");
+}
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background:linear-gradient(135deg ,#ecedea, #dae9cd);
+   
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 5%;
+    border-color: black;
+    box-shadow: 10px 10px 20px #adc9b4;
+    width: 300px;
+    background:linear-gradient(135deg, #c0cea5, #a0be88);
+    border-radius: 10px;
+    font-family:"tasa";
+    margin-right: 10%;
+    margin-left:10% ;
+
+}
+.form:hover{
+    transform: scale(1.008,1.008);
+}
+label{
+    align-self: flex-start;
+    margin-bottom: -5px;
+    margin-left: -10px;
+    color:black;
+    opacity: 0.4;
+    font-size: smaller;
+}
+.logs{
+    width: 100%;
+    background-color:honeydew;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 6px;
+    box-shadow: 1px 1px 3px rgb(219, 235, 219);
+}
+.logs:focus{
+    transform: scale(1.07);
+}
+
+.pass{
+    width: 330px;
+    background-color:honeydew;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 6px;
+    box-shadow: 1px 1px 3px rgb(219, 235, 219);
+    box-sizing: border-box;
+    padding-right: 40px;
+    margin-left: -15px;
+    margin-right: -30px;
+}
+.pass:focus{
+    transform: scale(1.07);
+}
+
+input::placeholder{
+    font-family:"tasa";
+}
+.submit{
+    margin-top: 10px;
+    border: none;
+    width: 50%;
+    height: 35px;
+    color: aliceblue;
+    background-color:#ab9064;
+    border-radius: 10px;
+    font-family:"tasa"sans-serif;
+    box-shadow: 2px 2px 3px #8e8763;
+    font-weight: bold;
+    cursor: pointer;
+}
+.submit:hover{
+transform: scale(1.08,1.08);
+box-shadow: 3px 3px 4px #8e8763;;
+}
+
+.create{
+    align-self: flex-start;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    font-size: small;
+}
+
+
+.inprow .checkbox{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    transform: translateY(-90%);
+    left: 275px;
+    top: 55%;
+}
+
+
+.inprow{
+    position: relative;
+    width: 100%;
+}
+.section{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    align-items:center;
+    background-color:#ab9064;
+    height: 100vh;
+    width: 45%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    box-shadow: 8px 8px 10px #cab494;
+}
+.section:hover{
+    transform: scale(1.01,1.01);
+}
+.text{
+    align-self: center;
+    margin: 40px;
+    margin-bottom: -5px;
+    text-align: justify;
+    font-family:  "tasa";
+    color: aliceblue;
+}
+.message{
+    display: flex;
+    flex-direction: row;
+}
+.welcome{
+    font-family: "tasa";
+    color:aliceblue;
+    font-size: xx-large;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    
+}
+.name{
+    font-family: "tasa";
+    color:#694848;
+    font-size: xx-large;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-shadow: 2px 2px 3px #986f6f;
+}
+.image{
+    width: 20%;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 10px #0c0c0c;
+    box-shadow: 5px 5px 6px #986f6f;
+
+}
+.image:hover{
+    border-radius: 10%;
+    box-shadow: 5px 5px 6px #986f6f;
+    transform: scale(1.2,1.2);
+}
+.image:active{
+    border-radius: 10%;
+    box-shadow: 5px 5px 6px #986f6f;
+    transform: scale(1.2,1.2);
+}
