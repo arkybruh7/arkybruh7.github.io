@@ -4,11 +4,11 @@ import { useEffect } from "react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Rahul Shrestha — Software · Systems · Security" },
+      { title: "Rahul Shrestha - Software · Systems · Security" },
       {
         name: "description",
         content:
-          "Portfolio of Rahul Shrestha — Kathmandu University computer engineering student building software, systems, and security tools.",
+          "Portfolio of Rahul Shrestha — Computer engineering student building software, systems, and security tools.",
       },
       { property: "og:title", content: "Rahul Shrestha — Aspiring Computer Engineer" },
       { property: "og:description", content: "Software · Systems · Security. Kathmandu University." },
@@ -101,7 +101,7 @@ function Portfolio() {
               <p className="eyebrow mono">// 01 — INTRODUCTION</p>
               <h2 className="display xxl" data-split>Hey.</h2>
               <p className="body" data-split-lines>
-                KU Computer Engineering student passionate about solving real-world tech challenges.
+                Computer Engineering student passionate about solving real-world tech challenges.
                 Self-driven learner, cybersecurity enthusiast, and a builder who prefers shipping over speculating.
               </p>
               <p className="body muted" data-split-lines>
@@ -342,8 +342,6 @@ $ tm ls --today
 
             <div className="timeline-rich" aria-label="Timeline">
               <header className="tl-head">
-                <p className="eyebrow mono">// trajectory</p>
-                <span className="mono small muted">2023 → now</span>
               </header>
               <div className="tl-track tl-vertical">
                 <div className="tl-spine" />
@@ -407,14 +405,14 @@ $ tm ls --today
                 </a>
               </li>
               <li>
-                <a className="mag" href="https://www.linkedin.com/in/rahul-shrestha" target="_blank" rel="noopener" aria-label="LinkedIn" data-cursor="hover">
+                <a className="mag" href="https://www.linkedin.com/in/rahul-shrestha-a48a1b336/" target="_blank" rel="noopener" aria-label="LinkedIn" data-cursor="hover">
                   <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true">
                     <path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm7 0h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6V21h-4v-5.4c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21h-4V9z" />
                   </svg>
                 </a>
               </li>
               <li>
-                <a className="mag" href="mailto:rahul.shrestha@example.com" aria-label="Email" data-cursor="hover">
+                <a className="mag" href="mailto:rahulshrestha5775@gmail.com" aria-label="Email" data-cursor="hover">
                   <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true">
                     <path d="M2 5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5zm2 .4v.2l8 5.2 8-5.2v-.2H4zm16 2.6-7.5 4.9a1 1 0 0 1-1 0L4 8v11h16V8z" />
                   </svg>
