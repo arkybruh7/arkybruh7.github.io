@@ -1,4 +1,4 @@
-# Rahul Shrestha — Portfolio
+# Portfolio
 
 A handcrafted personal portfolio built with **TanStack Start**, **React 19**, **Three.js**, and **GSAP**.
 
@@ -20,7 +20,7 @@ bun install        # or: npm install / pnpm install
 bun run dev        # → http://localhost:3000
 ```
 
-That's it — hot-reload is on, edit anything in `src/` and the page updates instantly.
+That's it  hot-reload is on, edit anything in `src/` and the page updates instantly.
 
 ## Build for production
 
